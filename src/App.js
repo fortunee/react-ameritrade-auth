@@ -37,7 +37,6 @@ function App() {
 
   useEffect(() => {
     const auth = JSON.parse(localStorage.getItem(AUTH_KEY)) || {};
-    console.log({auth})
     setAuth(auth)
 
     return async () => {
